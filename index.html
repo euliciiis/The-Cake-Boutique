@@ -7,6 +7,8 @@
   <title>The Cake Boutique</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- AOS  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -68,10 +70,10 @@
     <div class="container text-center intro-heading">
       <div class="row align-items-center">
         <div class="heading-text">
-          <h1>Passion Craft</h1>
+          <h1 data-aos-delay="400" data-aos="fade-up">Passion Craft</h1>
         </div>
         <div class="order-btn">
-          <button class="rounded-pill btn-rounded">order now</button>
+          <button class="rounded-pill btn-rounded" data-aos-delay="500" data-aos="zoom-in">order now</button>
         </div>
         <div class="more-text info fixed-bottom">
           <h5>
@@ -90,15 +92,15 @@
   <section id="cake-types">
     <div class="container cake-types">
       <div class="row align-items-center g-5 mx-3">
-        <div class="col-md-4 col-12 card-title birthday img">
+        <div data-aos="fade-up" class="col-md-4 col-12 card-title birthday img">
           <img class="img-fluid card-item" src="assets/cake-types/birthday-1.jpg" alt="birthday">
           <p class="display-5">Birthday Cakes</p>
         </div>
-        <div class="col-md-4 col-12 card-title wedding img">
+        <div data-aos="fade-up" class="col-md-4 col-12 card-title wedding img">
           <img class="img-fluid card-item" src="assets/cake-types/wedding-1.jpg" alt="wedding">
           <p class="display-5">Wedding Cakes</p>
         </div>
-        <div class="col-md-4 col-12 card-title christmas img">
+        <div data-aos="fade-up" class="col-md-4 col-12 card-title christmas img">
           <img class="img-fluid card-item" src="assets/cake-types/christmas-1.jpg" alt="christmas">
           <p class="display-5">Christmas Cakes</p>
         </div>
@@ -110,8 +112,8 @@
   <section id="about" style=" background-color: #000;" class="text-secondary">
     <div class="container">
       <div class="about-description row align-items-center text-center text-md-start mx-5">
-        <h5 class="display-3 about-text">About the Cake Boutique</h5>
-        <p class="lead">The Cake Boutique combines craftmanship and complexity into original cake design where delicious
+        <h5 data-aos="fade-right" class="display-3 about-text">About the Cake Boutique</h5>
+        <p data-aos="zoom-in" class="lead">The Cake Boutique combines craftmanship and complexity into original cake design where delicious
           flavor and art are synonymous. Bringing beauty into the most ordinary days. The cake Boutique is Dubai's frist
           and only exclusively-online cake shop. Innovative and advanced beyond the cake design industry today,
           award-winning Cake Artist's Beth's designs, are one-of-a-kind, featuring digitally sketched illustrations that
@@ -121,28 +123,28 @@
 
     <div class="container-fluid gallery bg-light">
       <div class="row center g-4 g-md-2">
-        <div class="col-xl-3 col-md-4">
+        <div data-aos="zoom-in" class="col-xl-3 col-md-4">
           <img class="img-fluid" src="assets/grid-images/cake-1.jpg" alt="Cake 1">
         </div>
-        <div class="col-xl-3 col-md-4">
+        <div data-aos-delay="200" data-aos="zoom-in" class="col-xl-3 col-md-4">
           <img class="img-fluid" src="assets/grid-images/cake-2.jpg" alt="Cake 1">
         </div>
-        <div class="col-xl-3 col-md-4">
+        <div data-aos-delay="300" data-aos="zoom-in" class="col-xl-3 col-md-4">
           <img class="img-fluid" src="assets/grid-images/cake-3.jpg" alt="Cake 1">
         </div>
-        <div class="col-xl-3 col-md-4">
+        <div data-aos-delay="400" data-aos="zoom-in" class="col-xl-3 col-md-4">
           <img class="img-fluid" src="assets/grid-images/cake-4.jpg" alt="Cake 1">
         </div>
-        <div class="col-xl-3 col-md-4">
+        <div data-aos-delay="500" data-aos="zoom-in" class="col-xl-3 col-md-4">
           <img class="img-fluid" src="assets/grid-images/cake-5.jpg" alt="Cake 1">
         </div>
-        <div class="col-xl-3 col-md-4">
+        <div data-aos-delay="600" data-aos="zoom-in" class="col-xl-3 col-md-4">
           <img class="img-fluid" src="assets/grid-images/cake-6.jpg" alt="Cake 1">
         </div>
-        <div class="col-xl-3 col-md-4">
+        <div data-aos-delay="700" data-aos="zoom-in" class="col-xl-3 col-md-4">
           <img class="img-fluid" src="assets/grid-images/cake-7.jpg" alt="Cake 1">
         </div>
-        <div class="col-xl-3 col-md-4">
+        <div data-aos-delay="800" data-aos="zoom-in" class="col-xl-3 col-md-4">
           <img class="img-fluid" src="assets/grid-images/cake-8.jpg" alt="Cake 1">
         </div>
       </div>
@@ -206,7 +208,8 @@
           <div class="payment-methods row">
             <div class="col"><img class="img-fluid" src="assets/payment-logos/visa.png" alt="Visa Logo"></div>
             <div class="col"><img class="img-fluid" src="assets/payment-logos/MasterCard.png" alt="Visa Logo"></div>
-            <div class="col"><img class="img-fluid" src="assets/payment-logos/American-Express-Logo.png" alt="Visa Logo"></div>
+            <div class="col"><img class="img-fluid" src="assets/payment-logos/American-Express-Logo.png"
+                alt="Visa Logo"></div>
             <div class="col"><img class="img-fluid" src="assets/payment-logos/paypal-logo.png" alt="Visa Logo"></div>
           </div>
         </div>
@@ -234,6 +237,13 @@
   <script src="https://kit.fontawesome.com/6866398b36.js" crossorigin="anonymous"></script>
 
   <script src="javascript/navBarScroll.js"></script>
+
+  <!-- AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>
